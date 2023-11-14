@@ -1,8 +1,52 @@
 .card{
     width: 310px;
-    border: 1px solid #8a8888;
+    border: 2px solid #000000;
     padding-left: 0.7em;
+    padding-right: 0.7em;
+    padding-bottom: 0.7em;
+    box-shadow: 6px 6px 1px 0px #757474;
+    background-color: #ffde00;
+}
+
+.namebox{
+    border: 2px solid #000000;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 0.2em;
+    background-color: rgb(255, 255, 255);
+}
+
+.picture{
+    width: 300px;
+    height: 200px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0.2em;
     padding-right: 0.2em;
-    padding-bottom: 0.6em;
-    box-shadow: 6px 6px 1px 6px;
+    background-color: rgb(255, 255, 255);
+}
+
+.factsbox{
+    width: 300px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    background-color: rgb(255, 255, 255);  
+}
+
+.interestingfact{
+    font-style: italic;
+}
+
+.factslist{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+span{
+    font-weight: bold;
 }
