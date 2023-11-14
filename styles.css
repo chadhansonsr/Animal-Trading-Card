@@ -1,1 +1,8 @@
-/* add your CSS here */
+.card{
+    width: 310px;
+    border: 1px solid #8a8888;
+    padding-left: 0.7em;
+    padding-right: 0.2em;
+    padding-bottom: 0.6em;
+    box-shadow: 6px 6px 1px 6px;
+}
